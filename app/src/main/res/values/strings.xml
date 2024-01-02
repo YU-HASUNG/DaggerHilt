@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">DaggerHiltStudy</string>
+    <string name="noise">Noise..Noise..Noise..Noise..</string>
 </resources>
