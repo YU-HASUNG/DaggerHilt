@@ -1,6 +1,8 @@
 package leopardcat.studio.daggerhiltstudy.houses
 
-class AlertSystem {
+import javax.inject.Inject
+
+class AlertSystem @Inject constructor() {
 
     fun startAlerting() {
         println("I am alerting...")
