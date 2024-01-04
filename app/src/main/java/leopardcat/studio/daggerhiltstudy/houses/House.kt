@@ -7,7 +7,7 @@ import leopardcat.studio.daggerhiltstudy.R
 import javax.inject.Inject
 import javax.inject.Named
 
-class House @Inject constructor(@Lock private val alertSystem: AlertSystem) {
+class House @Inject constructor(@Noise private val alertSystem: AlertSystem) {
 
     fun alert() {
         alertSystem.startAlerting()
